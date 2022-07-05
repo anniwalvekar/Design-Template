@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
 :root{
-   --color-primary:#ce1446;
+   --color-primary:#f71854;
    --color-secondary:#ffffff;
    --color-bg:#000000;
    --color-bg01:#0c0b0b;
    --color-bg02:#121212;
-   --color-bg1:#f71854;
+   --color-bg1:#ff2560;
+   /* --color-bg1:#ce1446; */
 
 
 }
@@ -63,18 +64,18 @@ section{
   
  }
  .social-link a{
-   width: 1.5rem;
-   height: 1.5rem;
-   background-color: var(--color-secondary);
+   width: 2rem;
+   height: 2rem;
+   background-color: var(--color-bg1);
    display: inline-flex;
    align-items: center;
    justify-content: center;
-   color: var(--color-bg1);
+   color: var(--color-secondary);
    border-radius: 30%;
 
  }
  .social-link a:hover{
-   color: var(--color-primary);
+   background-color: var(--color-bg1);
  }
  .navbar{
    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.08);
@@ -179,7 +180,7 @@ font-weight: 700;
 .about-img{
    width: 100%;
    height:100%;
-   /* margin-left: 3rem; */
+   margin-left: 3rem;
    border-bottom: 1rem solid #ce1446;
    border-left:1rem solid #ce1446 ;
    
@@ -294,6 +295,7 @@ text-align: center;
 }
 .team-member h5{
    margin-top: 1rem;
+   font-weight: 700;
 }
 .team-member  p{
    margin-top: -0.5rem !important;
@@ -371,7 +373,7 @@ text-align: center;
 
 /* Footer */
 footer .logo{
-   width: 30%;
+   width: 40%;
    margin-bottom: 1rem;
   
 }
@@ -382,20 +384,36 @@ footer{
  
 }
 .footer-top{
-   margin-bottom: 2rem;
+   margin-bottom: 3rem;
    justify-content: center;
-   align-items: center;
-   
-   
+   align-items: center; 
+}
+.footer-top p{
+   font-size: 1rem;
+   font-weight: 300;
+
+}
+.footer-title{
+   font-size: 1.8rem;
+   margin-bottom: 2rem;
+}
+.footer-top .logo{
+   margin-top:1.5rem;
+}
+.feedback{
+ font-size:0.9rem;
+ padding: 0.5rem;
+ margin-right: 5px;
 }
 .footer-bottom{
    margin-top: 2rem;
    border-top:1px solid rgba(206, 20, 70, 0.726) ;
 }
-footer .social-link{
-   margin-left:1rem;
-   margin: 1rem;
+.footer-bottom P {
+   font-size:0.8rem;
+   font-weight: 300;
 }
+
 .footer-icon{
    width: 1.5rem;
    height: 1.5rem;
